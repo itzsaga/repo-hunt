@@ -10,7 +10,7 @@
     "author": "Seth <sethalexander@pm.me>",
     "license": "ISC",
     "devDependencies": {
-        "prettier": "^1.17.0"
+        "prettier": "^1.18.2"
     },
     "dependencies": {
         "serverless-cloudflare-workers": "^1.2.0"
