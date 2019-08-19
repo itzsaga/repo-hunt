@@ -1,5 +1,12 @@
 const headers = { 'Content-Type': 'text/html' }
-const handler = () => {
-    return new Response('Hello, world!', { headers })
+const template = require('../templates/index')
+
+const handler = async () => {
+    try {
+        return new Response(template(), { headers })
+    } catch (err) {
+        return new Response(err)
+    }
 }
+
 module.exports = handler
