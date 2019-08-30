@@ -9,7 +9,7 @@ const layout = body => `
   </head>
   <body>
     <div class="container">
-      <div class="navbar">
+      <nav class="navbar">
         <div class="navbar-brand">
           Repo Hunt
           Find cool open-source projects daily
@@ -17,11 +17,13 @@ const layout = body => `
         <div class="navbar-menu">
           <div class="navbar-end">
             <div class="navbar-item">
-              Post a repository
+              <button class="button is-primary">
+                Post a repository
+              </button>
             </div>
           </div>
         </div>
-      </div>
+      </nav>
       <div class="section">
         ${body}
       </div>
