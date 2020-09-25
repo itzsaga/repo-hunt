@@ -26,3 +26,7 @@ wrangler publish
 #### Serverless
 
 To deploy using serverless add a [`serverless.yml`](https://serverless.com/framework/docs/providers/cloudflare/) file.
+
+
+
+
